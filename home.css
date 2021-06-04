@@ -564,9 +564,7 @@ a#logo5>img {
   .aim_1{
     height: 50vh;
   }
-  .aim_1 img{
-    width: 90%;
-  }
+
   .pledge_0 {
     margin-top: 0px;
   }
@@ -605,6 +603,12 @@ a#logo5>img {
   #logo4,
   #logo5 {
     padding: 0px;
+  }
+  .aim_1 img{
+    width: 90%;
+  }
+  .pledge_0 img{
+    padding-left: 90px;
   }
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
