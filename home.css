@@ -314,7 +314,6 @@ body{
   display: flex;
   justify-content: space-between;
   background-color: #676768; 
-  margin-top: 10px;
 }
 /* Contact  */
 .contact{
@@ -386,7 +385,6 @@ a#logo5>img {
   .menu {
       display: none;
   }
-
   .hamburger-menu {
       display: block;
   }
@@ -487,6 +485,7 @@ a#logo5>img {
   .pledge_1{
    margin-left: 0px;
    margin: auto;
+   height: auto;
   }
   .aim_0 h2{
     display: flex;
@@ -504,6 +503,7 @@ a#logo5>img {
   }
   .part_3{
     background-color: #2954C5;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width:500px) and (max-width:768px){
@@ -511,14 +511,16 @@ a#logo5>img {
     font-size: medium;
   }
   .pledge_1 h2{
-    font-size: larger;
+    font-size: largerr;
   }
   .aim_0 h2{
     font-size: x-large;
   }
   .aim_0 p, .aim_0 ul{
     font-size: medium;
-
+  }
+  .pledge_0{
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width:400px) and (max-width:500px){
@@ -537,14 +539,21 @@ a#logo5>img {
   .aim_1{
     height: 50vh;
   }
-
+  #logo1,
+  #logo2,
+  #logo3,
+  #logo4,
+  #logo5 {
+    padding: 10px;
+  }
 }
 @media only screen and (min-width:300px) and (max-width:400px){
   .pledge_1 p{
     font-size: smaller;
   }
   .pledge_1 h2{
-    font-size: medium;
+    font-size: large;
+    margin-top: 0PX;
   }
   .aim_0 h2{
     font-size: medium;
@@ -554,6 +563,40 @@ a#logo5>img {
   }
   .aim_1{
     height: 50vh;
+  }
+  .pledge_0 {
+    margin-top: 0px;
+  }
+  .pledge_1 p{
+    margin-top: 30px;
+  }
+
+}
+@media only screen and (min-width:300px) and (max-width:341px){
+#social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; padding: 0px;
+}
+
+  #logo1,
+  #logo2,
+  #logo3,
+  #logo4,
+  #logo5 {
+    padding: 0px;
+  }
+  .aim_1 img{
+    width: 100%;
+  }
+}
+@media only screen and (min-width:340px) and (max-width:400px){
+  #logo1,
+  #logo2,
+  #logo3,
+  #logo4,
+  #logo5 {
+    padding: 0px;
   }
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
