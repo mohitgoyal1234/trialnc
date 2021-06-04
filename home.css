@@ -253,7 +253,6 @@ body{
   padding-bottom: 2vh;
   height: auto;
   width: auto;
-  background-color: aqua;
   margin-top: 2vh;
 }
 /* pledge section image part */
@@ -581,7 +580,6 @@ a#logo5>img {
     align-items: center; 
     padding: 0px;
 }
-
   #logo1,
   #logo2,
   #logo3,
@@ -595,6 +593,8 @@ a#logo5>img {
   .pledge_0 img{
     padding-left: 90px;
   }
+
+
 }
 @media only screen and (min-width:340px) and (max-width:400px){
   #logo1,
@@ -609,6 +609,17 @@ a#logo5>img {
   }
   .pledge_0 img{
     padding-left: 90px;
+  }
+}
+@media only screen and (min-width:400px) and (max-width:430px){
+  .pledge_0 img{
+    padding-left: 90px;
+  }
+  .pledge_1 h2{
+    margin-top: 2px;
+  }
+  .pledge_1 p{
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
