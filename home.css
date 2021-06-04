@@ -570,6 +570,9 @@ a#logo5>img {
   .pledge_1 p{
     margin-top: 30px;
   }
+  .aim_1 img{
+    width: 80%;
+  }
 
 }
 @media only screen and (min-width:300px) and (max-width:341px){
